@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+electron/app/
+electron/build/
+electron/dist/
+
+# Build logs & debug logs
+build_log*.txt
+*.log
+
+# Environment & secret files
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Bank statements & private financial documents
+*.pdf
+*.csv
+*.ofx
+*.qif
+*.xlsx
+*.xls
+scripts/sample_pdf_and_csv/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Database files
+*.sqlite
+*.db
+
+# Capacitor generated
+android/
+ios/

@@ -1,0 +1,42 @@
+{
+  "name": "wealthviewer",
+  "version": "1.0.1",
+  "description": "A 100% offline personal finance tracker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "finance",
+    "budget",
+    "offline",
+    "privacy"
+  ],
+  "author": "MichaelOlivier96",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "^8.3.1",
+    "@sqlite.org/sqlite-wasm": "^3.53.0-build1",
+    "@tailwindcss/vite": "^4.2.4",
+    "@vitejs/plugin-react": "^6.0.1",
+    "lucide-react": "^1.14.0",
+    "papaparse": "^5.5.3",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-is": "^19.2.6",
+    "react-window": "^1.8.10",
+    "recharts": "^3.8.1",
+    "vite": "^8.0.10",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@capacitor-community/electron": "^5.0.1",
+    "@capacitor/cli": "^8.3.1",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.2.4"
+  }
+}
