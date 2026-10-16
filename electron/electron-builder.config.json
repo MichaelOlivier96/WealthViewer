@@ -11,7 +11,9 @@
     "app/**/*"
   ],
   "publish": {
-    "provider": "github"
+    "provider": "github",
+    "owner": "MichaelOlivier96",
+    "repo": "WealthViewer"
   },
   "nsis": {
     "allowElevation": true,
