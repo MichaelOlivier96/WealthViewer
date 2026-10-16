@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "description": "WealthViewer — Offline Personal Finance Tracker",
   "author": {
-    "name": "MichaelOlivier96"
+    "name": "MichaelOlivier96",
+    "email": "MichaelOlivier96@users.noreply.github.com"
   },
   "repository": {
     "type": "git",

@@ -13,7 +13,8 @@
   "publish": {
     "provider": "github",
     "owner": "MichaelOlivier96",
-    "repo": "WealthViewer"
+    "repo": "WealthViewer",
+    "releaseType": "release"
   },
   "nsis": {
     "allowElevation": true,
@@ -33,6 +34,7 @@
       "AppImage",
       "deb"
     ],
+    "maintainer": "MichaelOlivier96 <MichaelOlivier96@users.noreply.github.com>",
     "icon": "assets/appIcon.png",
     "category": "Finance"
   }
